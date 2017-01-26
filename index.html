@@ -34,21 +34,21 @@
 		</div>
 	</header>
 	<main>
-	<div class="slider clearfix">
-		<div>
-			<img src="img/slide-1.jpg" alt="slide photo" width="880" height="587">
-		</div>
-		<div>
-			<img src="img/slide-2.jpg" alt="slide photo" width="880" height="587">
-		</div>
-		<div>
-			<img src="img/slide-3.jpg" alt="slide photo" width="880" height="587">
-		</div>
-		<div>
-			<img src="img/slide-4.jpg" alt="slide photo1" width="880" height="587">
-		</div>
-	
+	<div id="slider">
+		<a href="#" class="control_next">&gt;</a>
+		<a href="#" class="control_prev">&lt;</a>
+		<ul>
+			<li><img src="img/slide-1.jpg" alt="slide photo" width="880" height="587"></li>
+			<li><img src="img/slide-2.jpg" alt="slide photo" width="880" height="587"></li>
+			<li><img src="img/slide-3.jpg" alt="slide photo" width="880" height="587"></li>
+			<li><img src="img/slide-4.jpg" alt="slide photo1" width="880" height="587"></li>
+		</ul>
 	</div>
+	<div class="slider_option">
+		<input type="checkbox" id="checkbox">
+		<label for="checkbox">Autoplay <a href="http://www.jqueryscript.net/slider/">Slider</a></label>
+	</div>
+
 	<div class="quote clearfix">
 	<p>
 		“You don't make a photograph just with a camera. You bring to the act of photography all the pictures you have seen, the books you have read, the music you have heard, the people you have loved.” 
@@ -68,4 +68,6 @@
 	</div>
 	</footer>
 	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </body>
