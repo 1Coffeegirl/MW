@@ -39,8 +39,6 @@ $('a.control_next').click(function () {
 
 //active autoplay mode
 
-$('#checkbox').change(function(){
-  setInterval(function () {
+setInterval(function () {
     moveRight();
   }, 3000);
-});
