@@ -126,26 +126,15 @@ a.control_next {
   margin: 30px 50px;
 }
 
-/*page about me */
 
-.about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.about div {
-  padding-left: 20px;
-}
-.about-margo {
-  font-size: 16px;
-  line-height: 3;
-}
 
 /* FOOTER */
 .main-footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: 75px;
+  border-top: 1px solid grey;
 }
 .social-btn {
   display: inline-block;
@@ -175,7 +164,7 @@ a.control_next {
 .social-btn-inst {
    background-position: 1px 0px;
 }
-.sprite-__ {
+/*.sprite-__ {
     width: 21px;
     height: 21px;
  
@@ -191,4 +180,36 @@ a.control_next {
     width: 25px;
     height: 16px;
     
+}*/
+
+.footer-development a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*page about me */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 2;
+}
+.about-photo {
+  margin-right: 20px;
+}
+
+.about p{
+  text-align: justify;
+}
+.title-about {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.about-margo ul {
+  list-style: none;
 }
